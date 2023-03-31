@@ -58,3 +58,16 @@
     border: 1px solid #ccc;
     transition: all 0.2s ease-in-out;
 }
+
+btn:hover{
+    transform: scale(1.1)
+}
+
+#startBtn{
+    background-color: #175cff;
+    color: #fff;
+}
+
+#pauseBtn, #continueBtn{
+    display: none;
+}
